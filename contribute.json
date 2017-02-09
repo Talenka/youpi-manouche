@@ -1,0 +1,24 @@
+{
+    "name": "Youpi-Manouche",
+    "description": "Let's unicorn reality!",
+    "repository": {
+        "url": "https://github.com/Talenka/youpi-manouche",
+        "license": "GNU GPL v3",
+        "tests": "https://travis-ci.org/talenka/youpi-manouche"
+    },
+    "participate": {
+        "home": "https://github.com/Talenka/youpi-manouche",
+        "docs": "https://github.com/Talenka/youpi-manouche/wiki"
+    },
+    "bugs": {
+        "list": "https://github.com/Talenka/youpi-manouche/issues",
+        "report": "https://github.com/Talenka/youpi-manouche/issues"
+    },
+    "urls": {
+        "prod": "https://youpi-manouche.com/",
+        "dev": "https://localhost/"
+    },
+    "keywords": [
+        "symfony"
+    ]
+}
