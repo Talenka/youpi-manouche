@@ -5,6 +5,7 @@ namespace AppBundle\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Validator\Constraints;
 
 class KamouloxController extends Controller
 {
@@ -24,12 +25,15 @@ class KamouloxController extends Controller
      *   }
      * )
      */
-    public function indexAction(Request $request, $_locale)
+    public function indexAction(Request $request, $_locale, $type, $_format)
     {
+        $pageTitle = 'Vous voulez du nawak ?';
+
         // replace this example code with whatever you need
         return $this->render('default/index.html.twig', [
             'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..').DIRECTORY_SEPARATOR,
-            '_locale' => $_locale
+            '_locale' => $_locale,
+            'pageTitle' => $pageTitle
         ]);
     }
 }
